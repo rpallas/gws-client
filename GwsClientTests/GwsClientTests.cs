@@ -1,15 +1,21 @@
 using System;
 using NUnit.Framework;
+using Moq;
+using SocketIOClient;
 
-[TestFixture]
+[TestFixture()]
 public class GwsClientTests
 {
-	[Test]
+	[Test()]
 	public void Init_ConnectsToTheClient()
 	{
+		var mockClient = new Mock<SocketIOClient.IClient>();
+
+
 
 	}
 
 }
+
 
 

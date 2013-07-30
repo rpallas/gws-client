@@ -22,7 +22,7 @@ public class MainController : MonoBehaviour
 	{
 		GenerateTestQuestions(); // Temporary - test data
 		
-		_client = new Client("http://gws.rpallas_1.c9.io");
+		_client = new Client("http://gws-server.rpallas_1.c9.io");
 		
 		_client.Opened += SocketOpened;
 		_client.Message += SocketMessage;
