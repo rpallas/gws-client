@@ -11,3 +11,4 @@ test-results/
 *.sln
 *.userprefs
 *.pidb
+bin/
